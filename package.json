@@ -1,0 +1,26 @@
+{
+  "name": "poloniex",
+  "version": "0.0.0",
+  "description": "An adapter to connect Via to the Poloniex exchange.",
+  "main": "./lib/main",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "via",
+    "trading",
+    "gemini"
+  ],
+  "exchange": "poloniex",
+  "repository": "https://github.com/via-platform/poloniex",
+  "author": "Dakota Gordon",
+  "engines": {
+    "via": "*"
+  },
+  "dependencies": {
+    "autobahn": "^17.5.2",
+    "axios": "^0.16.2",
+    "ws": "^3.3.3"
+  },
+  "configSchema": {}
+}
